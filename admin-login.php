@@ -3,7 +3,7 @@
 $user_mail = ['elmir@mail.ru','rashad@mail.ru'];
 $user_pass = ['123456','123456'];
 
-print_r($user_pass);
+
 
 $mail= trim(@$_POST['user_mail']);
 $pass = trim(@$_POST['user_pass']);
