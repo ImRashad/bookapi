@@ -29,6 +29,8 @@ if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
         echo $info = json_encode($info);   
           header('Location:');
     }
+}else{
+echo "Post metodu göndərilməyib";
 }
 
 ?>
