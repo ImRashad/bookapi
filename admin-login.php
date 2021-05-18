@@ -1,7 +1,7 @@
 <?php 
 
 $user_mail = ['elmir@mail.ru','rashad@mail.ru'];
-$user_pass = ['123456','123456'];
+$user_pass = ['123456'];
 
 
 
