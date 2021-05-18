@@ -1,2 +1,4 @@
-Salam Elmir. Herokuya baxiram
+<?php
+echo "Salam Elmir. Herokuya baxiram";
+?>
 
