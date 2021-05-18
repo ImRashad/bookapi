@@ -5,8 +5,8 @@ $user_pass = ['123456'];
 
 
 
-$mail= trim(@$_POST['user_mail']);
-$pass = trim(@$_POST['user_pass']);
+$mail= trim(@$_POST['email']);
+$pass = trim(@$_POST['password']);
 $button = @$_POST['user_button'];
 
 if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
@@ -15,7 +15,7 @@ if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
             "code" => 200, 
             "message" => "Giriş başarılı"
         ); 
-        $info['user'][] = ["user_mail"=>$mail,"user_pass"=>$pass];
+        $info['user'][] = ["email"=>$mail,"password"=>$pass];
 
         echo $info = json_encode($info);       
 
