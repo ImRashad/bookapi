@@ -17,7 +17,7 @@ if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
         ); 
         $info['user'][] = ["email"=>$mail,"password"=>$pass];
 
-        echo $info = json_encode($info);       
+        return $info = json_encode($info);       
 
         header('Location:');
     }
@@ -26,7 +26,7 @@ if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
             "code" => 700, 
             "message" => "Istifadəçi adı və ya şifrə yanlışdır."
         ); 
-        echo $info = json_encode($info);   
+        return $info = json_encode($info);   
           header('Location:');
     }
 }else{
