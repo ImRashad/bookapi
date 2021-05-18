@@ -1,1 +1,5 @@
-Salam
+<?php 
+
+echo "Salam";
+
+?>
