@@ -17,17 +17,17 @@ if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
         ); 
         $info['user'][] = ["email"=>$mail,"password"=>$pass];
 
-        return $info = json_encode($info);       
+        echo $info = json_encode($info);       
 
-        header('Location:');
+//         header('Location:');
     }
     else{
         $info = array(
             "code" => 700, 
             "message" => "Istifadəçi adı və ya şifrə yanlışdır."
         ); 
-        return $info = json_encode($info);   
-          header('Location:');
+        echo $info = json_encode($info);   
+//           header('Location:');
     }
 }
 
