@@ -3,10 +3,7 @@
 $user_mail = ['elmir@mail.ru','rashad@mail.ru'];
 $user_pass = ['123456'];
 
-$_POST = json_decode($_POST,true);
 
-print_r($_POST);
-die();
 
 $mail= trim(@$_POST['email']);
 $pass = trim(@$_POST['password']);
