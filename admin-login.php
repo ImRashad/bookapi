@@ -13,11 +13,10 @@ $user_pass = ['123456'];
 
 $content = trim(file_get_contents("php://input"));
 $decoded = json_decode($content, true);
-print_r($decoded);
-die();
 
-$mail= trim(@$_POST['email']);
-$pass = trim(@$_POST['password']);
+
+$mail= trim($decoded['email']);
+$pass = trim($decoded['password']);
 
 
 if(@$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
