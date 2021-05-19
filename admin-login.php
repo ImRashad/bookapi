@@ -7,9 +7,9 @@ $user_pass = ['123456'];
 
 $mail= trim(@$_POST['email']);
 $pass = trim(@$_POST['password']);
-$button = @$_POST['user_button'];
 
-if($button AND @$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
+
+if(@$_GET['token']='35621ru9834658923gh69873j54g672fj34dj'){
     if( in_array($mail,$user_mail) AND in_array($pass,$user_pass)){
         $info = array(
             "code" => 200, 
